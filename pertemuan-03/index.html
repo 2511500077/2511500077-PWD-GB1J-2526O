@@ -6,6 +6,7 @@ Nama: AFDAL<br><br>
 Hari ini, Rabu 08 Oktober 2025, saya belajar:
 <ol>
     <li>menggunaka file emmet.html pertemuan-02 untuk file index.html pertemuan-03</li>
+    <li>membuat struktur form untuk section contact</li>
 </ol>
 <!DOCTYPE html>
 <html lang="en">
@@ -45,7 +46,19 @@ Hari ini, Rabu 08 Oktober 2025, saya belajar:
         </section>
         <section id="contact">
             <h2>Kontak Kami</h2>
-            <p>contoh form</p>
+            <form action="">
+                <label for="">Nama:</label>
+                <input type="text" id="txtNama" name="txtNama" placeholder="Masukan nama" required autocomplete="name">
+
+                <label for="">Email:</label>
+                <input type="text" id="txtEmail" name="txtEmail" placeholder="Masukan email" required autocomplete="name">
+
+                <label for="">Pesan:</label>
+                <textarea name="txtPesan" id="txtPesan" rows="4" placeholder="Tulis pesan anda..." required></textarea>
+
+                <button type="submit">Kirim</button>
+                <button type="reset">batal</button>
+            </form>
         </section>
     </main>
     <footer>
