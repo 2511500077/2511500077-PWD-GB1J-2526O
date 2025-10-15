@@ -55,7 +55,6 @@
 
         /* Bagian utama form */
         #contact {
-            background-color: #6cd2eb;
             border-radius: 10px;
             padding: 20px;
             max-width: 700px;
@@ -63,23 +62,28 @@
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             position: relative;
 
-            /* animasi melayang */
-            animation: float 5s ease-in-out infinite;
+            /* animasi melayang dan perubahan warna*/
+            animation: float 1s ease-in-out infinite,
+                       changeColor 1s infinite alternate ease-in-out;
         }
 
         /* Animasi naik-turun */
         @keyframes float {
-        0% {
-            transform: translateY(0);
+            0% {transform: translateY(0); }
+            50% {transform: translateY(-15px); }
+            100% {transform: translateY(0); }
         }
-        50% {
-            transform: translateY(-15px);
+        /* Animasi perubahan warna */
+        @keyframes changeColor {
+            0%   { background-color: #ff3636; }  /* biru */
+            25%  { background-color: #d2ff08; }  /* biru muda */
+            50%  { background-color: #03c4ff; }  /* hijau kebiruan */
+            75%  { background-color: #765bff; }  /* coral */
+            100% { background-color: #ff7b00; }  /* oranye lembut */
         }
-        100% {
-             transform: translateY(0);
-        }
-    }
+
         
+
         #contact h2 {
             text-align: center;
             margin-bottom: 20px;
@@ -109,6 +113,7 @@
         }
 
         form button {
+            background-color: #007BFF;
             padding: 10px 20px;
             border: none;
             border-radius: 10px;
@@ -117,15 +122,11 @@
             
         }
 
-        form button[type="submit"] {
-            background-color: #007BFF;
-            color: white;
-        }
 
-        form button[type="reset"] {
-            background-color: #007BFF;
-            color: white;
-        }
+        form button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+        }   
 
         @media (max-width: 600px) {
             #contact {
@@ -136,6 +137,7 @@
             #contact input,
             #contact textarea {
                 font-size: 14px;
+                width: 300px;
             }
 
             #contact button {
