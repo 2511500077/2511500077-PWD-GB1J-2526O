@@ -130,7 +130,8 @@
 
         @media (max-width: 600px) {
             #contact {
-                width: 90%;        /* lebih lebar sedikit di layar kecil */
+                width: 100%;        /* lebih lebar sedikit di layar kecil */
+                max-width: 100%;
                 padding: 15px;
             }
 
@@ -138,6 +139,7 @@
             #contact textarea {
                 font-size: 14px;
                 align-items: flex-start;
+                box-sizing: border-box;
             }
 
             #contact button {
