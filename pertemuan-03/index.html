@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Judul Halaman</title>
     ,<style>
-        #about {
-            background-color: #f9f9f9;
+
+        #about,
+        #contact {
+            background-color: #ffffff;
             border-radius: 10px;
             padding: 20px;
             max-width: 700px;
@@ -14,7 +16,8 @@
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         } 
 
-        #about h2 {
+        #about h2,
+        #contact h2 {
             color: #003366;
             border-bottom: 2px solid #003366;
             padding-bottom: 6px;
@@ -28,7 +31,7 @@
             align-items: baseline;
             margin: 0;
             padding: 6px 0;
-            border-bottom: 1px solid #003366;
+            border-bottom: 1px solid #e6e6e6;
         }
 
         #about strong {
@@ -53,93 +56,6 @@
             }
         }
 
-        
-        #contact {
-            border-radius: 10px;
-            padding: 20px;
-            max-width: 700px;
-            margin:40px auto;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            position: relative;
-
-            
-            animation: float 5s ease-in-out infinite,
-                       changeColor 20s infinite alternate ease-in-out;
-        }
-
-        
-        
-        @keyframes float {
-            0% {transform: translateY(0); }
-            50% {transform: translateY(-15px); }
-            100% {transform: translateY(0); }
-        }
-        
-
-        @keyframes changeColor {
-            0%   { background-color: #ff3636; }
-            25%  { background-color: #d2ff08; }  
-            50%  { background-color: #03c4ff; }  
-            75%  { background-color: #765bff; }  
-            100% { background-color: #ff7b00; }  
-        }
-
-        
-
-        #contact h2 {
-            text-align: center;
-            margin-bottom: 20px;
-            color: #333;
-        }
-
-        form label {
-            display: block;
-            margin-bottom: 5px;
-            font-weight: 600;
-            color: #333;
-        }
-
-        form input,
-        form textarea {
-            width: 670px;
-            padding: 10px;
-            border-radius: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-        }
-
-        form button {
-            background-color: #007BFF;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 10px;
-            cursor: pointer;
-            margin-right: 10px;
-            
-        }
-
-
-        form button:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
-        }   
-
-        @media (max-width: 600px) {
-
-            #contact input,
-            #contact textarea {
-                width: 100%;
-                max-width: 100%;
-                font-size: 14px;
-                align-items: flex-start;
-                box-sizing: border-box;
-            }
-
-            #contact button {
-                width: 100%;
-                margin-top: 10px;
-            }
-}
     </style>
 </head>
 <body>
@@ -174,13 +90,13 @@
         <section id="contact">
             <h2>Kontak Kami</h2>
             <form action="" method="GET">
-                <label for="">Nama:</label>
+                <label for="txtNama">Nama:</label>
                 <input type="text" id="txtNama" name="txtNama" placeholder="Masukan nama" required autocomplete="name">
 
-                <label for="">Email:</label>
+                <label for="txtEmail">Email:</label>
                 <input type="text" id="txtEmail" name="txtEmail" placeholder="Masukan email" required autocomplete="name">
 
-                <label for="">Pesan:</label>
+                <label for="txtPesan">Pesan:</label>
                 <textarea name="txtPesan" id="txtPesan" rows="4" placeholder="Tulis pesan anda..." required></textarea>
 
                 <button type="submit">Kirim</button>
