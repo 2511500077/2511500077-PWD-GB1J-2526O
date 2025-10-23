@@ -31,6 +31,7 @@
             padding: 6px 12px;
         }
         
+        #home,
         #about,
         #contact {
             background-color: #ffffff;
@@ -45,6 +46,7 @@
             background-image: url("awan.png");
         }
 
+        #home h2,
         #about h2,
         #contact h2 {
             color: #003366;
@@ -52,6 +54,9 @@
             padding-bottom: 6px;
             margin-top: 0;
             margin-bottom: 16px;
+        }
+        #home p {
+            text-align: justify;
         }
 
         #about p,
