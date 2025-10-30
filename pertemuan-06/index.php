@@ -23,7 +23,8 @@
             <h2>Selamat Datang</h2>
             <p>ini contoh paragraf HTML.</p>
             <?php
-            echo "halo Dunia!";
+            echo "Halo Dunia!";
+            echo "Nama saya Afdal";
             ?>
         </section>
         <section id="about">
