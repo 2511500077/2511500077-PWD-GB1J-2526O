@@ -41,66 +41,16 @@
             $nama_adik = "Afifah Ananda";
             ?>
             <h2>Tentang Saya</h2>
-            <p>
-                <strong>Nim:</strong>
-                <?php
-                echo $nim;
-                ?>
-            </p>
-            <p>
-                <strong>Nama Lengkap:</strong>
-                <?php
-                echo $nama;
-                ?> &#128526;
-            </p>
-            <p>
-                <strong>Tempat Lahir:</strong>
-                <?php
-                echo $tempat_lahir;
-                ?>
-            </p>
-            <p>
-                <strong>Tanggal Lahir:</strong>
-                <?php
-                echo $tanggal_lahir;
-                ?>
-            </p>
-            <p>
-                <strong>Hobi:</strong>
-                <?php
-                echo $hobi;
-                ?> &#127926;
-            </p>
-            <p>
-                <strong>Pasangan:</strong>
-                <?php
-                echo $pasangan;
-                ?> &hearts;
-            </p>
-            <p>
-                <strong>Pekerjaan:</strong>
-                <?php
-                echo $pekerjaan;
-                ?> &#9786;
-            </p>
-            <p>
-                <strong>Nama Orang Tua:</strong>
-                <?php
-                echo $nama_orangtua;
-                ?>
-            </p>
-            <p>
-                <strong>Nama Kakak:</strong>
-                <?php
-                echo $nama_kakak;
-                ?>
-            </p>
-            <p>
-                <strong>Nama Adik:</strong>
-                <?php
-                echo $nama_adik;
-                ?>
-            </p>
+            <p><strong>Nim:</strong><?php echo $nim;?></p>
+            <p><strong>Nama Lengkap:</strong><?php echo $nama;?> &#128526;</p>
+            <p><strong>Tempat Lahir:</strong><?php echo $tempat_lahir;?></p>
+            <p><strong>Tanggal Lahir:</strong><?php echo $tanggal_lahir;?></p>
+            <p><strong>Hobi:</strong><?php echo $hobi;?> &#127926;</p>
+            <p><strong>Pasangan:</strong><?php echo $pasangan;?> &hearts;</p>
+            <p><strong>Pekerjaan:</strong><?php echo $pekerjaan;?> &#9786;</p>
+            <p><strong>Nama Orang Tua:</strong><?php echo $nama_orangtua;?></p>
+            <p><strong>Nama Kakak:</strong><?php echo $nama_kakak;?></p>
+            <p><strong>Nama Adik:</strong><?php echo $nama_adik;?></p>
         </section>
         <section id="contact">
             <h2>Kontak Kami</h2>
