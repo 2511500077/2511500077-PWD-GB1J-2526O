@@ -8,4 +8,5 @@ belajar sebagai berikut :
 <ol>
     <li>skrip php hello world</li>
     <li>copy index.html, style.css, script.js (pertemuan-06)</li>
+    <li>menambahkan Variabel PHP ke section#about</li>
 </ol>
