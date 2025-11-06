@@ -7,4 +7,5 @@ Nama : AFDAL<br>
 belajar sebagai berikut :
 <ol>
     <li>download + extract bahan latihan pertemuan-06</li>
+    <li>menambahkan action dan method di section#contact</li>
 </ol>
