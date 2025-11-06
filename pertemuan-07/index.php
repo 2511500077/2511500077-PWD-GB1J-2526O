@@ -1,3 +1,20 @@
+<?php
+  session_start();
+  $sesnama = "";
+  if (isset($_SESSION["sesnama"])):
+    $sesnama = $_SESSION["sesnama"];
+  endif;
+  $sesemail = "";
+  if (isset($_SESSION["sesemail"])):
+    $sesemail = $_SESSION["sesemail"];
+  endif;
+  $sespesan = "";
+  if (isset($_SESSION["sespesan"])):
+    $sespesan = $_SESSION["sespesan"];
+  endif;
+  
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -63,7 +80,7 @@
 
     <section id="contact">
       <h2>Kontak Kami</h2>
-      <form action="proses.php" method="POST">
+      <form action="proses.php" method="GET">
 
         <label for="txtNama"><span>Nama:</span>
           <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan nama" required autocomplete="name">
@@ -83,6 +100,15 @@
         <button type="reset">Batal</button>
       </form>
     </section>
+
+    <?php if (!empty($sesnama)): ?>
+    <section id="komentar">
+      <h2>Komentar</h2>
+      <p><strong>Nama : </strong> <?php echo $sesnama ?></p>
+      <p><strong>Email : </strong> <?php echo $sesemail ?></p>
+      <p><strong>Pesan : </strong> <?php echo $sespesan ?></p>
+    </section>
+    <?php endif; ?>
   </main>
 
   <footer>
