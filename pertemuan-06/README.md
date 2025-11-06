@@ -9,4 +9,6 @@ belajar sebagai berikut :
     <li>skrip php hello world</li>
     <li>copy index.html, style.css, script.js (pertemuan-06)</li>
     <li>menambahkan Variabel PHP ke section#about</li>
+    <li>menambahkan section baru dengan id ipk</li>
+    <li>menambahkan Kalkulasi Nilai Akhir, Grade, IPK</li>
 </ol>

@@ -60,13 +60,46 @@
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         } 
 
+        #ipk {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 700px;
+            margin: 20px auto;
+        }
+
+        .label {
+            text-align: right;
+            font-weight: bold;
+            width: 200px;
+            display: inline-block;
+        }
+        
+        .value {
+            text-align: left;
+            display: inline-block;
+        }
+
+        .matkul {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+        }
+
+        .total {
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
         #contact {
             background-image: url("awan.png");
         }
 
         #home h2,
         #about h2,
-        #contact h2 {
+        #contact h2,
+        #ipk h2 {
             color: #003366;
             border-bottom: 2px solid #003366;
             padding-bottom: 6px;
@@ -225,7 +258,8 @@
             }
 
             #about strong,
-            #contact label>span {
+            #contact label>span,
+            #ipk .value {
                 text-align: left;
                 padding-right: 0;
                 margin-bottom: 2px;
