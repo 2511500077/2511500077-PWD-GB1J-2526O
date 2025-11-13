@@ -77,7 +77,7 @@ endif;
       <p>Ini contoh paragraf HTML.</p>
     </section>
 
-    <section id="aboutyou">
+    <section id="dataMahasiswa">
       <h2>Entry Data Mahasiswa</h2>
 
       <form action="proses.php" method="post">

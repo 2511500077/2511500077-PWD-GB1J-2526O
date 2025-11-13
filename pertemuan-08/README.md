@@ -11,5 +11,6 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>silahkan diisi sesuai proses pengerjaan kalian masing-masing</li>
   <li>memindahkan bahan uts ke pertemuan-08<li>
   <li>membuat section baru di atas section#contact<li>
+  <li>menambahkan form input untuk nim, nama lengkap, tempat lahir, tanggal lahir, hobi, pasangan, pekerjaan, nama orang tua, nama kakak, nama adik</li>
 
 </ol>
