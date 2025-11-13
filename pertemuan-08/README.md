@@ -9,4 +9,7 @@ Kelompok: TI1A<br>
 Proses saya mengerjakan UTS ini sebagai berikut:<br>
 <ol>
   <li>silahkan diisi sesuai proses pengerjaan kalian masing-masing</li>
+  <li>memindahkan bahan uts ke pertemuan-08<li>
+  <li>membuat section baru di atas section#contact<li>
+
 </ol>
