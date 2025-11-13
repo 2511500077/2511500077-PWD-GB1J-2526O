@@ -109,7 +109,9 @@ header li a:active {
 }
 
 #contact input,
-#contact textarea {
+#contact textarea,
+#dataMahasiswa input,
+#dataMahasiswa textarea{
   flex: 1;
   border: 1px solid #ccc;
   border-radius: 6px;
