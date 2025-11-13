@@ -227,13 +227,15 @@ footer {
   }
 
   #about p,
-  #contact label {
+  #contact label,
+  #dataMahasiswa label {
     flex-direction: column;
     align-items: flex-start;
   }
 
   #about strong,
-  #contact label>span {
+  #contact label>span,
+  #dataMahasiswa label>span {
     text-align: left;
     padding-right: 0;
     margin-bottom: 2px;
@@ -242,6 +244,12 @@ footer {
   #contact input,
   #contact textarea,
   #contact button {
+    width: 100%;
+  }
+
+  #dataMahasiswa input,
+  #dataMahasiswa textarea,
+  #dataMahasiswa button {
     width: 100%;
   }
 }

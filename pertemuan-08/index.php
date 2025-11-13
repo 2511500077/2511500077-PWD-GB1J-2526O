@@ -1,19 +1,44 @@
 <?php
 session_start();
-
+$sesnim = "";
+if (isset($_SESSION["sesnim"])):
+  $sesnim = $_SESSION["sesnim"];
+endif;
 $sesnama = "";
 if (isset($_SESSION["sesnama"])):
   $sesnama = $_SESSION["sesnama"];
 endif;
-
-$sesemail = "";
-if (isset($_SESSION["sesemail"])):
-  $sesemail = $_SESSION["sesemail"];
+$sesTempat_lahir = "";
+if (isset($_SESSION["sesTempat_lahir"])):
+  $sesTempat_lahir = $_SESSION["sesTempat_lahir"];
 endif;
-
-$sespesan = "";
-if (isset($_SESSION["sespesan"])):
-  $sespesan = $_SESSION["sespesan"];
+$sesTanggal_lahir = "";
+if (isset($_SESSION["sesTanggal_lahir"])):
+  $sesTanggal_lahir = $_SESSION["sesTanggal_lahir"];
+endif;
+$sesHobi = "";
+if (isset($_SESSION["sesHobi"])):
+  $sesHobi = $_SESSION["sesHobi"];
+endif;
+$sesPasangan = "";
+if (isset($_SESSION["sesPasangan"])):
+  $sesPasangan = $_SESSION["sesPasangan"];
+endif;
+$sesPekerjaan = "";
+if (isset($_SESSION["sesPekerjaan"])):
+  $sesPekerjaan = $_SESSION["sesPekerjaan"];
+endif;
+$sesNama_ortu = "";
+if (isset($_SESSION["sesNama_ortu"])):
+  $sesNama_ortu = $_SESSION["sesNama_ortu"];
+endif;
+$sesNama_kakak = "";
+if (isset($_SESSION["sesNama_kakak"])):
+  $sesNama_kakak = $_SESSION["sesNama_kakak"];
+endif;
+$sesNama_adik = "";
+if (isset($_SESSION["sesNama_adik"])):
+  $sesNama_adik = $_SESSION["sesNama_adik"];
 endif;
 ?>
 
@@ -103,24 +128,16 @@ endif;
       $tempat = "Jebus";
       ?>
       <h2>Tentang Saya</h2>
-      <p><strong>NIM:</strong>
-        <?php
-        echo $NIM;
-        ?>
-      </p>
-      <p><strong>Nama Lengkap:</strong>
-        <?php
-        echo $Nama;
-        ?> &#128526;
-      </p>
-      <p><strong>Tempat Lahir:</strong> <?php echo $tempat; ?></p>
-      <p><strong>Tanggal Lahir:</strong> 1 Januari 2000</p>
-      <p><strong>Hobi:</strong> Memasak, coding, dan bermain musik &#127926;</p>
-      <p><strong>Pasangan:</strong> Belum ada &hearts;</p>
-      <p><strong>Pekerjaan:</strong> Dosen di ISB Atma Luhur &copy; 2025</p>
-      <p><strong>Nama Orang Tua:</strong> Bapak Setiawan dan Ibu Maria</p>
-      <p><strong>Nama Kakak:</strong> Antonius Setiawan</p>
-      <p><strong>Nama Adik:</strong> <?php echo $sespesan ?></p>
+      <p><strong>NIM:</strong><?php echo $sesnim ?></p>
+      <p><strong>Nama:</strong><?php echo $sesnama ?></p>
+      <p><strong>Tempat Lahir:</strong><?php echo $sesTempat_lahir ?></p>
+      <p><strong>Tanggal Lahir:</strong><?php echo $sesTempat_lahir ?></p>
+      <p><strong>Hobi:</strong><?php echo $sesHobi ?></p>
+      <p><strong>Pasangan:</strong><?php echo $sesPasangan ?></p>
+      <p><strong>Pekerjaan:</strong><?php echo $sesPekerjaan ?></p>
+      <p><strong>Nama Orang Tua:</strong><?php echo $sesNama_ortu ?></p>
+      <p><strong>Nama Kakak:</strong><?php echo $sesNama_kakak ?></p>
+      <p><strong>Nama Adik:</strong><?php echo $sesNama_adik ?></p>
     </section>
 
     <section id="contact">
