@@ -11,7 +11,6 @@ belajar sebagai berikut :
     <li>menambahkan file proses.php</li>
     <li>menampilkan session dari proses.php ke komentar</li>
     <li>menambahkan redirect di proses.php ke index.php<li>
-    <li>membuat file hancur.php</li>
-    <li>menggunakan isset di $sesnama, $sesemail, $sespesan</li>
-    <li>menggunakan !empty di section#komentar</li>
+    <li>
+    <li>membuat 
 </ol>
