@@ -1,7 +1,7 @@
 <?php
 session_start();
 $sesnim = $_POST["txtNim"];
-$sesnama = $_POST["txtNama1"];
+$sesnama = $_POST["txtName"];
 $sesTempat_lahir = $_POST["txtTempat_lahir"];
 $sesTanggal_lahir = $_POST["txtTanggal_lahir"];
 $sesHobi = $_POST["txtHobi"];

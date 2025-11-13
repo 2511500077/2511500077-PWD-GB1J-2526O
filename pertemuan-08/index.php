@@ -85,7 +85,7 @@ endif;
           <input type="text" id="txtNim" name="txtNim" placeholder="Masukkan nim" required autocomplete="nim">
         </label>
         <label for="txtNama1"><span>Nama:</span>
-          <input type="text" id="txtNama1" name="txtNama1" placeholder="Masukkan nama" required autocomplete="name">
+          <input type="text" id="txtName" name="txtName" placeholder="Masukkan nama" required autocomplete="name">
         </label>
         <label for="txtTempat_lahir"><span>Tempat Lahir:</span>
           <input type="text" id="txtTempat_lahir" name="txtTempat_lahir" placeholder="Masukkan Tempat lahir" required autocomplete="tempat_lahir">
