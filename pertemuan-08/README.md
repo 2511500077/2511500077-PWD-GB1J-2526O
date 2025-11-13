@@ -21,5 +21,6 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>menambahkkan kode bagian proses.php</li>
   <li>menambahkan kode php di awal sebelum kode html</li>
   <li>menambahkan echo pada section#about</li>
+  <li>sudah selesai</li>
 
 </ol>
