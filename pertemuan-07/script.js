@@ -97,7 +97,7 @@ document.querySelector("form").addEventListener("submit", function (e) {
     e.preventDefault();
     let isValid = true;
 
-    document.querySelectorAll(".error-msg").forEach(el => el.remove());
+  document.querySelectorAll(".error-msg").forEach(el => el.remove());
     [nama, email, pesan].forEach(el => el.style.border = "");
 
     if (nama.value.trim().length < 3) {
@@ -107,6 +107,7 @@ document.querySelector("form").addEventListener("submit", function (e) {
         showError(nama, "Nama hanya boleh berisi huruf dan spasi.");
         isValid = false;
     }
+
     if (email.value.trim() === "") {
         showError(email, "Email wajib diisi.");
         isValid = false;
@@ -123,14 +124,18 @@ document.querySelector("form").addEventListener("submit", function (e) {
         isValid = false;
     }
 
+    
+
+
+
     if (!isValid) {
-        e.preventDefault();
-    } else {
+        
+    
         alert("Terima kasih, " + nama.value + "!\nPesan Anda telah dikirim.");
         //e.target.reset();
-        e.target.submit();
+        e.currentTarget.submit();
     }
-});
+}); 
 
 function showError(inputElement, message) {
     const label = inputElement.closest("label");
