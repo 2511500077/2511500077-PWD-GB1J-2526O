@@ -13,5 +13,6 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>membuat section baru di atas section#contact<li>
   <li>menambahkan form input untuk nim, nama lengkap, tempat lahir, tanggal lahir, hobi, pasangan, pekerjaan, nama orang tua, nama kakak, nama adik</li>
   <li>menambahkan styling pada bagian section#dataMahasiswa</li>
+  <li>menambahkan styling pada bagian section#dataMahasiswa h2</li>
 
 </ol>
