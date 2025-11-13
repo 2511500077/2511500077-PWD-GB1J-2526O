@@ -78,7 +78,7 @@ endif;
     </section>
 
     <section id="dataMahasiswa">
-      <h2>Kontak Kami</h2>
+      <h2>Biodata Sederhana Mahasiswa</h2>
       <form action="proses.php" method="POST">
 
         <label for="txtNim"><span>Nim:</span>
@@ -162,14 +162,6 @@ endif;
         <button type="reset">Batal</button>
       </form>
 
-      <?php if (!empty($sesnama)): ?>
-        <br>
-        <hr>
-        <h2>Yang menghubungi kami</h2>
-        <p><strong>Nama :</strong> <?php echo $sesnama ?></p>
-        <p><strong>Email :</strong> <?php echo $sesemail ?></p>
-        <p><strong>Pesan :</strong> <?php echo $sespesan ?></p>
-      <?php endif; ?>
 
 
 

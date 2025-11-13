@@ -20,5 +20,6 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>menambahkan styling pada bagian button</li>
   <li>menambahkkan kode bagian proses.php</li>
   <li>menambahkan kode php di awal sebelum kode html</li>
+  <li>menambahkan echo pada section#about</li>
 
 </ol>
