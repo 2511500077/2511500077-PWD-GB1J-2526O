@@ -23,5 +23,4 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>menambahkan echo pada section#about</li>
   <li>menambahkan location pada prosesphp menuju index.php</li>
   <li>sudah selesai</li>
-
 </ol>
