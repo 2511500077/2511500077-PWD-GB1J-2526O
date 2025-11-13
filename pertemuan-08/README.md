@@ -17,5 +17,6 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>menambahkan styling pada bagian section#dataMahasiswa label</li>
   <li>menambahkan styling pada bagian section#dataMahasiswa label>span</li>
   <li>menambahkan styling pada bagian section#dataMahasiswa input dan #dataMahasiswa textarea </li>
+  <li>menambahkan styling pada bagian button</li>
 
 </ol>
