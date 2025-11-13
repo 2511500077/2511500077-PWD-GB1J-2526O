@@ -87,7 +87,8 @@ header li a:active {
 }
 
 #about p,
-#contact label {
+#contact label,
+#dataMahasiswa label {
   display: flex;
   justify-content: flex-start;
   align-items: baseline;
