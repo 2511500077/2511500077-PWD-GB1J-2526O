@@ -20,6 +20,8 @@ Kelompok: gb1j<br>
   <li>menyusun rapi form dalam satu array dan menggunakan session pada proses.php</li>
   <li>menghapus baris 23-32, lalu diganti dengan baris kode array biodata</li>
   <li>hapus baris 19-67 dalam index.php, lalu ganti menggunakan kode fieldConfig</li>
-   <li>menambahkan kode looping pada section#about</li>
+  <li>menambahkan kode looping pada section#about</li>
+  <li>Hapus baris 130-140 pada index.php, karena sudah diakomodir menggunakan perulangan foreach untuk menampilkan isi array
+  associative $fieldConfig.</li>
   
 </ol>

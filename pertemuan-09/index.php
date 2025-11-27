@@ -1,21 +1,3 @@
-<?php
-$biodata = $_SESSION["biodata"] ?? [];
-
-$fieldConfig = [
-  "nim" => ["label" => "NIM:", "suffix" => ""],
-  "nama" => ["label" => "Nama Lengkap:", "suffix" => "&#128526;"],
-  "tempat" => ["label" => "Tempat Lahir:", "suffix" => ""],
-  "tanggal" => ["label" => "Tanggal Lahir:", "suffix" => ""],
-  "hobi" => ["label"=> "Hobi:", "suffix" => "&#127926;"],
-  "pasangan" => ["label"=> "Pasangan:", "suffix" => " &hearts;"],
-  "pekerjaan" => ["label" => "Pekerjaan:", "suffix" => " &copy; 2025"],
-  "ortu" => ["label" => "Nama Orang Tua:", "suffix" => ""],
-  "kakak" => ["label" => "Nama Kakak:", "suffix" => ""],
-  "adik" => ["label" => "Nama Adik:", "suffix"=> ""],
-
-];
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -98,8 +80,25 @@ $fieldConfig = [
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
       </form>
-
     </section>
+
+    <?php
+$biodata = $_SESSION["biodata"] ?? [];
+
+$fieldConfig = [
+  "nim" => ["label" => "NIM:", "suffix" => ""],
+  "nama" => ["label" => "Nama Lengkap:", "suffix" => "&#128526;"],
+  "tempat" => ["label" => "Tempat Lahir:", "suffix" => ""],
+  "tanggal" => ["label" => "Tanggal Lahir:", "suffix" => ""],
+  "hobi" => ["label"=> "Hobi:", "suffix" => "&#127926;"],
+  "pasangan" => ["label"=> "Pasangan:", "suffix" => " &hearts;"],
+  "pekerjaan" => ["label" => "Pekerjaan:", "suffix" => " &copy; 2025"],
+  "ortu" => ["label" => "Nama Orang Tua:", "suffix" => ""],
+  "kakak" => ["label" => "Nama Kakak:", "suffix" => ""],
+  "adik" => ["label" => "Nama Adik:", "suffix"=> ""],
+
+];
+?>
 
     <section id="about">
       <h2>Tentang Saya</h2>
@@ -110,17 +109,6 @@ $fieldConfig = [
           <?= $metadata["suffix"] ?>
         </p>
       <?php endforeach; ?>
-
-      <p><strong>NIM:</strong> <?= $txtNim ?></p>
-      <p><strong>Nama Lengkap:</strong> <?= $txtNmLengkap ?> &#128526;</p>
-      <p><strong>Tempat Lahir:</strong> <?= $txtT4Lhr ?></p>
-      <p><strong>Tanggal Lahir:</strong> <?= $txtTglLhr ?></p>
-      <p><strong>Hobi:</strong> <?= $txtHobi ?> &#127926;</p>
-      <p><strong>Pasangan:</strong> <?= $txtPasangan ?> &hearts;</p>
-      <p><strong>Pekerjaan:</strong> <?= $txtKerja ?> &copy; 2025</p>
-      <p><strong>Nama Orang Tua:</strong> <?= $txtNmOrtu ?></p>
-      <p><strong>Nama Kakak:</strong> <?= $txtNmKakak ?></p>
-      <p><strong>Nama Adik:</strong> <?= $txtNmAdik ?></p>
     </section>
 
     <section id="contact">
