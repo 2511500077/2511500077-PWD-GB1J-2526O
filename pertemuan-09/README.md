@@ -16,5 +16,6 @@ Kelompok: gb1j<br>
   <li>echo session ke nilai label section contact</li>
   <li>echo session ke nilai label section contact selesai</li>
   <li>download + extrak bahan pratikum Pertemuan-10</li>
+  <li>Modif baris kode (10-19) di proses.php menjadi bentuk array associative</li>
   
 </ol>
