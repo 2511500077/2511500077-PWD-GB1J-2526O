@@ -15,5 +15,6 @@ Kelompok: gb1j<br>
   <li>tangkap session dari file proses selesai</li>
   <li>echo session ke nilai label section contact</li>
   <li>echo session ke nilai label section contact selesai</li>
-  <li>Modif proses.php baris kode (10-19) menjadi bentuk array associative</li>
+  <li>download + extrak bahan pratikum Pertemuan-10</li>
+  
 </ol>
