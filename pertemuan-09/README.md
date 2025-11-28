@@ -23,5 +23,6 @@ Kelompok: gb1j<br>
   <li>menambahkan kode looping pada section#about</li>
   <li>Hapus baris 130-140 pada index.php, karena sudah diakomodir menggunakan perulangan foreach untuk menampilkan isi array
   associative $fieldConfig.</li>
+  <li>menambahkan file fungsi.php</li>
   
 </ol>
