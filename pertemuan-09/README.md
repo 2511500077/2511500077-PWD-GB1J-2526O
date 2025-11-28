@@ -26,5 +26,6 @@ Kelompok: gb1j<br>
   <li>menambahkan file fungsi.php dan menambahkan function bersihkan dan function tidakKosong</li>
   <li>menambahkan function formatTanggal di file fungsi.php</li>
   <li>menambahkan function tampilkanBiodata dan melakukan looping di file fungsi.php</li>
+  <li>menghapus kode baris 123-129 di file index.php diganntikan dengan kode tampilkanBiodata</li>
   
 </ol>
