@@ -25,5 +25,6 @@ Kelompok: gb1j<br>
   associative $fieldConfig.</li>
   <li>menambahkan file fungsi.php dan menambahkan function bersihkan dan function tidakKosong</li>
   <li>menambahkan function formatTanggal di file fungsi.php</li>
+  <li>menambahkan function tampilkanBiodata dan melakukan looping di file fungsi.php</li>
   
 </ol>
