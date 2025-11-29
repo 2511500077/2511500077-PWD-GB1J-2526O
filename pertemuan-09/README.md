@@ -27,5 +27,6 @@ Kelompok: gb1j<br>
   <li>menambahkan function formatTanggal di file fungsi.php</li>
   <li>menambahkan function tampilkanBiodata dan melakukan looping di file fungsi.php</li>
   <li>menghapus kode baris 123-129 di file index.php diganntikan dengan kode tampilkanBiodata</li>
+  <li>menambahkan perintah require_once pada index.php</li>
   
 </ol>
