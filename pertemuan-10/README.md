@@ -7,7 +7,7 @@ Kelompok: gb1j<br>
 <ol>
   <li>membuat file koneksi.php</li>
   <li>membuat database db_pwd2025 pada phpMyadmin</li>
-  <li>membuat file koneksi.php</li>
+  <li>membuat tabel tbl_tamu di phpMyadmin</li>
   <li>membuat file koneksi.php</li>
   <li>membuat file koneksi.php</li>
   <li>membuat file koneksi.php</li>
