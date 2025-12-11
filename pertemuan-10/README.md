@@ -5,11 +5,11 @@ NIM: 2511500077<br>
 Nama: Afdal<br>
 Kelompok: gb1j<br>
 <ol>
-  <li>membuat file koneksi.php</li>
-  <li>membuat database db_pwd2025 pada phpMyadmin</li>
-  <li>membuat tabel tbl_tamu di phpMyadmin</li>
-  <li>membuat file koneksi.php</li>
-  <li>membuat file koneksi.php</li>
-  <li>membuat file koneksi.php</li>
-  <li>membuat file koneksi.php</li>
+  <li>download file zip pertemuan-10</li>
+  <li>membuat file koneksi.php di pertemuan-10</li>
+  <li>membuat kode MySQL Improved pada koneksi.php</li>
+  <li>mengisi nama databse pada alamat phpmyadmin</li>
+  <li>membuat isian perintah SQL untuk membuat tabel tbl_tamu</li>
+  <li>membuat file read.php</li>
+  <li>mengisi baris baris cnama, cemail, dan cpesan di phpmyadmin</li>
 </ol>
