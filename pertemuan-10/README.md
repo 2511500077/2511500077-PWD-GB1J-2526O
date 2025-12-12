@@ -12,4 +12,7 @@ Kelompok: gb1j<br>
   <li>membuat isian perintah SQL untuk membuat tabel tbl_tamu</li>
   <li>membuat file read.php</li>
   <li>mengisi baris baris cnama, cemail, dan cpesan di phpmyadmin</li>
+  <li>mencuplikat file read.php dan mengganti nama file yag barusaja di duplikat menjadi read_inc.php</li>
+  <li>mengisi baris baris cnama, cemail, dan cpesan di phpmyadmin</li>
+  <li>mengisi baris baris cnama, cemail, dan cpesan di phpmyadmin</li>
 </ol>
