@@ -13,6 +13,5 @@ Kelompok: gb1j<br>
   <li>membuat file read.php</li>
   <li>mengisi baris baris cnama, cemail, dan cpesan di phpmyadmin</li>
   <li>mencuplikat file read.php dan mengganti nama file yag barusaja di duplikat menjadi read_inc.php</li>
-  <li>mengisi baris baris cnama, cemail, dan cpesan di phpmyadmin</li>
-  <li>mengisi baris baris cnama, cemail, dan cpesan di phpmyadmin</li>
+  <li>menghapus baris 146 pada index.php dan menggantinya dengan kode yag dapat menampilkan data dari read_inc.php</li>
 </ol>
