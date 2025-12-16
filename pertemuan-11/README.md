@@ -8,5 +8,7 @@ Kelompok: gb1j<br>
   <li>mencopy file pertemuan 10 ke pertemuan 11</li>
   <li>Update fungsi.php untuk helper redirect sederhana (pola PRG).</li>
   <li>menambahkan penangkap pesan sukses/gagal (flash message dari SESSION).</li>
+  <li>menambahkan Tampilkan flash message.</li> 
+
   
 </ol>
