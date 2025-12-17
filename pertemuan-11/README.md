@@ -14,4 +14,6 @@ Kelompok: gb1j<br>
   <li>mengisi Validasi (tidak boleh kosong, email valid).</li>
   <li>insert data tbl_tamu</li>
   <li>menambahkan kolom created at</li>
+  <li>
+  <li>menyimpan file localhost.sql</li>  
 </ol>
