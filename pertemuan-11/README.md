@@ -13,4 +13,5 @@ Kelompok: gb1j<br>
   <li>Ambil data $_POST, trim, htmlspecialchars.</li>
   <li>mengisi Validasi (tidak boleh kosong, email valid).</li>
   <li>insert data tbl_tamu</li>
+  <li>menambahkan kolom created at</li>
 </ol>
