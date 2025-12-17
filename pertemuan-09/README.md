@@ -1,6 +1,6 @@
 # pertemuan-09
 silahkan sesuaikan dengan milik kalian masing-masing:<br><br>
-Hari ini, kamis, 27-11-2025, saya:<br>
+Hari ini, kamis, 27-11-2025<br>
 NIM: 2511500077<br>
 Nama: Afdal<br>
 Kelompok: gb1j<br>

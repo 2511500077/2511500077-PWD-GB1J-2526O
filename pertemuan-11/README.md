@@ -9,6 +9,8 @@ Kelompok: gb1j<br>
   <li>Update fungsi.php untuk helper redirect sederhana (pola PRG).</li>
   <li>menambahkan penangkap pesan sukses/gagal (flash message dari SESSION).</li>
   <li>menambahkan Tampilkan flash message.</li> 
-
-  
+  <li>Cek REQUEST_METHOD apakah menggunakan 'POST'.</li>
+  <li>Ambil data $_POST, trim, htmlspecialchars.</li>
+  <li>mengisi Validasi (tidak boleh kosong, email valid).</li>
+  <li>insert data tbl_tamu</li>
 </ol>
