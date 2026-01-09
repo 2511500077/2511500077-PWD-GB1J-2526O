@@ -8,4 +8,5 @@ Kelompok: gb1j<br>
     <li>import sql bahan praktikum pertemuan-13</li>
     <li>menambahkan link delete di file read.php untuk ke file proses_delete.php</li>
     <li>salin semua kode di proses_update.php ke proses_delete.php</li>
+    <li>menyesuaikan kode di proses_delete.php untuk proses hapus</li>
 </ol>
