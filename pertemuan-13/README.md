@@ -1,6 +1,6 @@
 # pertemuan-13
 silahkan sesuaikan dengan milik kalian masing-masing:<br><br>
-Hari ini, selasa, 16-12-2025<br>
+Hari ini, jum'at, 1-09-2026<br>
 NIM: 2511500077<br>
 Nama: Afdal<br>
 Kelompok: gb1j<br>
