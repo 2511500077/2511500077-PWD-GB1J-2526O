@@ -5,6 +5,9 @@ Hari ini, jum'at, 1-09-2026<br>
 NIM: 2511500077<br>
 Nama: Afdal<br>
 Kelompok: gb1j<br>  
+
+Try out UAS:
+
 <ol>
-    <li>mengunduh bahan tryout uas</li>
+    <li>download dan ekstrak file uas ke pertemuan 16</li>
 </ol>
