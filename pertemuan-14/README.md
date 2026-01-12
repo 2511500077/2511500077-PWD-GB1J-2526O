@@ -10,4 +10,9 @@ Try out UAS:
 
 <ol>
     <li>download dan ekstrak file uas ke pertemuan 16</li>
+    <li>membuat tabel baru di mysql</li>
+    <li>download dan ekstrak file uas ke pertemuan 16</li>
+    <li>download dan ekstrak file uas ke pertemuan 16</li>
+    <li>download dan ekstrak file uas ke pertemuan 16</li>
+    <li>download dan ekstrak file uas ke pertemuan 16</li>
 </ol>
