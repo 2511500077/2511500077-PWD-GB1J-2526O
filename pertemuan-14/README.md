@@ -22,4 +22,6 @@ Try out UAS:
     <li>membuat file baru update_biodata.php</li>
     <li>mengisi file update_biodata.php</li>
     <li>cek di website apakah database nya bisa diedit dan di delete, jika sudah bisa berarti sudah selesai</li>
+    <li>selesai</li>
+
 </ol>
