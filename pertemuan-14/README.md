@@ -18,5 +18,5 @@ Try out UAS:
     <li>membuat file baru edit_biodata.php untuk mengedit database</li>
     <li>mengisi file edit_biodata.php</li>
     <li>membuat file baru delete_biodata.php</li>
-    <li>membuat file baru proses_biodata.php</li>
+    <li>mengisi file delete_biodata.php</li>
 </ol>
