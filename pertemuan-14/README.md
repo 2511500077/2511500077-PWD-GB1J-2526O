@@ -20,6 +20,6 @@ Try out UAS:
     <li>membuat file baru delete_biodata.php</li>
     <li>mengisi file delete_biodata.php</li>
     <li>membuat file baru update_biodata.php</li>
-    <li>mengisi file delete_biodata.php</li>
+    <li>mengisi file update_biodata.php</li>
     <li>mengisi file delete_biodata.php</li>
 </ol>
