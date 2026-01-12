@@ -13,6 +13,6 @@ Try out UAS:
     <li>membuat tabel baru di mysql</li>
     <li>membuat file baru untuk pembaca read_biodata.php</li>
     <li>copy file read.php ke read_biodata.php</li>
-    <li>download dan ekstrak file uas ke pertemuan 16</li>
+    <li>modifikasi file read_biodata.php</li>
     <li>download dan ekstrak file uas ke pertemuan 16</li>
 </ol>
