@@ -15,7 +15,7 @@ Try out UAS:
     <li>copy file read.php ke read_biodata.php</li>
     <li>modifikasi file read_biodata.php</li>
     <li>mengisi file proses_biodata.php agar ketika dikirim dia bisa di proses ke read_biodata.php</li>
-    <li>membuat file baru proses_biodata.php</li>
+    <li>membuat file baru edit_biodata.php untuk mengedit database</li>
     <li>membuat file baru proses_biodata.php</li>
     <li>membuat file baru proses_biodata.php</li>
     <li>membuat file baru proses_biodata.php</li>
