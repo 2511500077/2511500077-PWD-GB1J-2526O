@@ -11,16 +11,16 @@ Try out UAS:
 <ol>
     <li>download dan ekstrak file uas ke pertemuan 16</li>
     <li>membuat tabel baru di mysql</li>
-    <li>membuat file baru untuk pembaca read_biodata.php</li>
-    <li>copy file read.php ke read_biodata.php</li>
-    <li>modifikasi file read_biodata.php</li>
-    <li>mengisi file proses_biodata.php agar ketika dikirim dia bisa di proses ke read_biodata.php</li>
-    <li>membuat file baru edit_biodata.php untuk mengedit database</li>
-    <li>mengisi file edit_biodata.php</li>
-    <li>membuat file baru delete_biodata.php</li>
-    <li>mengisi file delete_biodata.php</li>
-    <li>membuat file baru update_biodata.php</li>
-    <li>mengisi file update_biodata.php</li>
+    <li>membuat file baru untuk pembaca read_biodata_pengujung.php</li>
+    <li>copy file read.php ke read_biodata_pengunjung.php</li>
+    <li>modifikasi file read_biodata_pengunjung.php</li>
+    <li>mengisi file proses_biodata_pengunjung.php agar ketika dikirim dia bisa di proses ke read_biodata_pengunjung.php</li>
+    <li>membuat file baru edit_biodata_pengunjung.php untuk mengedit database</li>
+    <li>mengisi file edit_biodata_pengunjung.php</li>
+    <li>membuat file baru delete_biodata_pengunjung.php</li>
+    <li>mengisi file delete_biodata_pengunjung.php</li>
+    <li>membuat file baru update_biodata_pengunjung.php</li>
+    <li>mengisi file update_biodata_pengunjung.php</li>
     <li>cek di website apakah database nya bisa diedit dan di delete, jika sudah bisa berarti sudah selesai</li>
     <li>selesai</li>
 
