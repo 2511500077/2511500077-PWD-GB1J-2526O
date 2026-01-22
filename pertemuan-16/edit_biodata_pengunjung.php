@@ -112,89 +112,79 @@ $nama_Mantan       = $old['Nama_Mantan']       ?? $nama_Mantan;
     </header>
 
     <main>
-      <section id="contact">
-        <h2>Edit biodata mahasiswa</h2>
-        <?php if (!empty($flash_error)): ?>
-          <div style="padding:10px; margin-bottom:10px; 
-            background:#f8d7da; color:#721c24; border-radius:6px;">
-            <?= $flash_error; ?>
-          </div>
-        <?php endif; ?>
-        <form action="update_biodata.php" method="POST">
+      <section id="biodata">
+  <h2>Biodata Pengunjung</h2>
 
-          <input type="hidden" name="cid" value="<?= (int)$cid; ?>">
+  <?php if (!empty($flash_sukses_biodata)): ?>
+    <div style="padding:10px; margin-bottom:10px; background:#d4edda; color:#155724; border-radius:6px;">
+      <?= $flash_sukses_biodata; ?>
+    </div>
+  <?php endif; ?>
 
-          <label for="txtNim"><span>Nim:</span>
-            <input type="text" id="txtNim" name="txtNimEd" 
-              readonly
-              value="<?= !empty($nim) ? $nim : '' ?>">
-          </label>
+  <?php if (!empty($flash_error_biodata)): ?>
+    <div style="padding:10px; margin-bottom:10px; background:#f8d7da; color:#721c24; border-radius:6px;">
+      <?= $flash_error_biodata; ?>
+    </div>
+  <?php endif; ?>
 
-          <label for="txtNama"><span>Nama Lengkap:</span>
-            <input type="text" id="txtNama" name="txtNamaEd" 
-              placeholder="Masukkan nama" required autocomplete="name"
-              value="<?= !empty($nama_lengkap) ? $nama_lengkap : '' ?>">
-          </label>
+  <form action="proses_biodata_pengunjung.php" method="POST">
 
-          <label for="txtT4Lhr"><span>Tempat Lahir:</span>
-            <input type="text" id="txtT4Lhr" name="txtT4LhrEd" 
-              placeholder="Masukkan Tempat Lahir" required
-              value="<?= !empty($tempat_lahir) ? $tempat_lahir : '' ?>">
-          </label>
+    <label for="txtKodePen"><span>Kode Pengunjung:</span>
+      <input type="text" id="txtKodePen" name="txtKodePen"
+        placeholder="Masukkan Kode Pengunjung" required>
+    </label>
 
-          <label for="txtTglLhr"><span>Tanggal Lahir:</span>
-            <input type="text" id="txtTglLhr" name="txtTglLhrEd" 
-              placeholder="Masukkan Tanggal Lahir" required
-              value="<?= !empty($tanggal_lahir) ? $tanggal_lahir : '' ?>">
-          </label>
+    <label for="txtNmPengunjung"><span>Nama Pengunjung:</span>
+      <input type="text" id="txtNmPengunjung" name="txtNmPengunjung"
+        placeholder="Masukkan Nama Pengunjung" required>
+    </label>
 
-          <label for="txtHobi"><span>Hobi:</span>
-            <input type="text" id="txtHobi" name="txtHobiEd" 
-              placeholder="Masukkan Hobi" required
-              value="<?= !empty($hobi) ? $hobi : '' ?>">
-          </label>
+    <label for="txtAlRmh"><span>Alamat Rumah:</span>
+      <input type="text" id="txtAlRmh" name="txtAlRmh"
+        placeholder="Masukkan Alamat Rumah" required>
+    </label>
 
-          <label for="txtPasangan"><span>Pasangan:</span>
-            <input type="text" id="txtPasangan" name="txtPasanganEd" 
-              placeholder="Masukkan Pasangan" required
-              value="<?= !empty($pasangan) ? $pasangan : '' ?>">
-          </label>
+    <label for="txtTglKunjungan"><span>Tanggal Kunjungan:</span>
+      <input type="text" id="txtTglKunjungan" name="txtTglKunjungan"
+        placeholder="Masukkan Tanggal Kunjungan" required>
+    </label>
 
-          <label for="txtKerja"><span>Pekerjaan:</span>
-            <input type="text" id="txtKerja" name="txtKerjaEd" 
-              placeholder="Masukkan Pekerjaan" required
-              value="<?= !empty($pekerjaan) ? $pekerjaan : '' ?>">
-          </label>
+    <label for="txtHobi"><span>Hobi:</span>
+      <input type="text" id="txtHobi" name="txtHobi"
+        placeholder="Masukkan Hobi" required>
+    </label>
 
-          <label for="txtNmOrtu"><span>Nama Orang Tua:</span>
-            <input type="text" id="txtNmOrtu" name="txtNmOrtuEd" 
-              placeholder="Masukkan Nama Orang Tua" required
-              value="<?= !empty($nama_orang_tua) ? $nama_orang_tua : '' ?>">
-          </label>
+    <label for="txtAsalSMA"><span>Asal SLTA:</span>
+      <input type="text" id="txtAsalSMA" name="txtAsalSMA"
+        placeholder="Masukkan Asal SLTA" required>
+    </label>
 
-          <label for="txtNmKakak"><span>Nama Kakak:</span>
-            <input type="text" id="txtNmKakak" name="txtNmKakakEd" 
-              placeholder="Masukkan Nama kakak" required
-              value="<?= !empty($nama_kakak) ? $nama_kakak : '' ?>">
-          </label>
+    <label for="txtKerja"><span>Pekerjaan:</span>
+      <input type="text" id="txtKerja" name="txtKerja"
+        placeholder="Masukkan Pekerjaan" required>
+    </label>
 
-          <label for="txtNmAdik"><span>Nama Adik:</span>
-            <input type="text" id="txtNmAdik" name="txtNmAdikEd" 
-              placeholder="Masukkan Nama Adik" required
-              value="<?= !empty($nama_adik) ? $nama_adik : '' ?>">
-          </label>
+    <label for="txtNmOrtu"><span>Nama Orang Tua:</span>
+      <input type="text" id="txtNmOrtu" name="txtNmOrtu"
+        placeholder="Masukkan Nama Orang Tua" required>
+    </label>
 
-          <label for="txtCaptcha"><span>Captcha 2 x 3 = ?</span>
-            <input type="number" id="txtCaptcha" name="txtCaptcha" 
-              placeholder="Jawab Pertanyaan..." required>
-          </label>
+    <label for="txtNmPacar"><span>Nama Pacar:</span>
+      <input type="text" id="txtNmPacar" name="txtNmPacar"
+        placeholder="Masukkan Nama Pacar" required>
+    </label>
 
-          <button type="submit">Kirim</button>
-          <button type="reset">Batal</button>
-          <a href="read_biodata_pengunjung.php" class="reset">Kembali</a>
-        </form>
-      </section>
-    </main>
+    <label for="txtNmMantan"><span>Nama Mantan:</span>
+      <input type="text" id="txtNmMantan" name="txtNmMantan"
+        placeholder="Masukkan Nama Mantan" required>
+    </label>
+
+    <button type="submit">Kirim</button>
+    <button type="reset">Batal</button>
+
+  </form>
+</section>  
+
 
     <script src="script.js"></script>
   </body>
