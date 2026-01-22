@@ -20,7 +20,7 @@ Try out UAS:
     <li>membuat file baru delete_biodata_pengunjung.php</li>    
     <li>mengisi file delete_biodata_pengunjung.php</li> 
     <li>membuat file baru update_biodata_pengunjung.php</li> 
-    <li>mengisi file update_biodata_pengunjung.php</li>
+    <li>mengisi file update_biodata_pengunjung.php</li> 
     <li>cek di website apakah database nya bisa diedit dan di delete, jika sudah bisa berarti sudah selesai</li>
     <li>selesai</li> 
 
