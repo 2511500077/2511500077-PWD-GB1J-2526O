@@ -16,7 +16,7 @@ Try out UAS:
     <li>modifikasi file read_biodata_pengunjung.php</li>
     <li>mengisi file proses_biodata_pengunjung.php agar ketika dikirim dia bisa di proses ke read_biodata_pengunjung.php</li>
     <li>membuat file baru edit_biodata_pengunjung.php untuk mengedit database</li>
-    <li>mengisi file edit_biodata_pengunjung.php</li>
+    <li>mengisi file edit_biodata_pengunjung.php</li> 
     <li>membuat file baru delete_biodata_pengunjung.php</li>
     <li>mengisi file delete_biodata_pengunjung.php</li>
     <li>membuat file baru update_biodata_pengunjung.php</li>
