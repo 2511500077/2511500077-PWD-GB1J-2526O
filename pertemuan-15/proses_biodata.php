@@ -63,7 +63,7 @@ if (!empty($errors)) {
   redirect_ke('index.php#biodata');
 }
 
-$sql = "INSERT INTO tbl_biodata 
+$sql = "INSERT INTO tbl_biodata1
 (nim, nama_lengkap, tempat_lahir, tanggal_lahir, hobi, pasangan, pekerjaan, nama_orang_tua, nama_kakak, nama_adik)
 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 $stmt = mysqli_prepare($conn, $sql);
