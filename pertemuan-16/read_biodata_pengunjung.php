@@ -53,8 +53,8 @@
     <tr>
       <td><?= $i++ ?></td>
       <td>
-        <a href="edit_biodata.php?cid=<?= (int)$row['cid']; ?>">Edit</a>
-        <a onclick="return confirm('Hapus <?= htmlspecialchars($row['nama_lengkap']); ?>?')" href="delete_biodata.php?cid=<?= (int)$row['cid']; ?>">Delete</a>
+        <a href="edit_biodata_pengunjung.php?cid=<?= (int)$row['cid']; ?>">Edit</a>
+        <a onclick="return confirm('Hapus <?= htmlspecialchars($row['Nama_Pengunjung']); ?>?')" href="delete_biodata_pengunjung.php?cid=<?= (int)$row['cid']; ?>">Delete</a>
       </td>
       <td><?= $row['cid']; ?></td>
       <td><?= htmlspecialchars($row['Kode_Pengunjung']); ?></td>
